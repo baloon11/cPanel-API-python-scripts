@@ -32,6 +32,7 @@ List for delete -- in `input_acct_list_for_remove` file.
 --------------
 
 In the head of each script you need to change this data:
+
 	#=============================================================
 
 	server_name="your_server"
