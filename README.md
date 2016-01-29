@@ -32,7 +32,7 @@ List for delete -- in `input_acct_list_for_remove` file.
 --------------
 
 In the head of each script you need to change this data:
-	`#=============================================================
+	#=============================================================
 
 	server_name="your_server"
 
@@ -40,7 +40,7 @@ In the head of each script you need to change this data:
 
 	admin_password="your_password"
 
-	#=============================================================`
+	#=============================================================
 
 **Note**: in files with data (lists of ip addresses or accounts) should not be empty lines.
 
