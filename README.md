@@ -66,7 +66,7 @@ console displays additional information and the script does not begin its work.
 -----------------------------------
 
 #### Requirements
- 
+	Linux
 	Python 2.7.10
 	pip install pycpanel==0.1.5
 
