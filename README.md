@@ -32,13 +32,15 @@ List for delete -- in `input_acct_list_for_remove` file.
 --------------
 
 In the head of each script you need to change this data:
-	#=============================================================
-	server_name="your_server"
-	admin_login="your_login"
-	admin_password="your_password"
-	#=============================================================
+	`#=============================================================`
+	`server_name="your_server"`
+	`admin_login="your_login"`
+	`admin_password="your_password"`
+	`#=============================================================`
 
 **Note**: in files with data (lists of ip addresses or accounts) should not be empty lines.
+
+Each ip address or account should be on a separate line.
 
 If the data file has been successfully processed by the script,
 in the end of the data file will be automatically 
