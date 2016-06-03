@@ -2,17 +2,21 @@
 
 This repository is a set of python scripts (that using cPanel API and
 `pycpanel` Рython library) that allows to manipulate accounts and ip addresses.  
+
 ---------------
 Directory `add_ip`  contains 2 files.  
 `add_ip.py` is a script that adds ip addresses from file `input_ips` to your cPanel.  
+
 ---------------
 Directory `del_ip`  contains 2 files.  
 `del_ip.py` is a script that delete list of ip addresses from your cPanel.  
 List for delete -- in `input_ips_for_del` file.  
+
 ---------------
 Directory `remove_acct_list`  contains 2 files.  
 `remove_acct_list.py` is a script that delete list of accounts from  your cPanel.  
 List for delete -- in `input_acct_list_for_remove` file.  
+
 ---------------
 Directory `from_domains_get_accounts`  contains 2 files.  
 List of domains -- in `domains` file.  
@@ -20,6 +24,7 @@ List of domains -- in `domains` file.
 File with the result - `out`.  
 It is automatically generated and is overwritten each time you run the script.  
 Be careful with this.  
+
 ---------------
 `remove_all_acct.py` is a script that delete all accounts from your cPanel.
 
