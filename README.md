@@ -21,7 +21,7 @@ List for delete -- in `input_acct_list_for_remove` file.
 Directory `remove_acct_using_domains`  contains 2 files.  
 List of domains -- in `domains` file.  
 `remove_acct_using_domains.py` is a script that delete list of accounts  
-(these accounts correspond to the list of domains from `domains` file) from  your cPanel.  
+(these accounts correspond to the list of domains from `domains` file) from your cPanel.  
 
 ---------------
 Directory `from_domains_get_accounts`  contains 2 files.  
