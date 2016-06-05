@@ -27,11 +27,18 @@ List of domains -- in `domains` file.
 Directory `from_domains_get_accounts`  contains 2 files.  
 List of domains -- in `domains` file.  
 `get_accs.py` is a script that finds the corresponding account for each domain of the`domains` file in your cPanel.  
-File with the result - `out`.  
-It is automatically generated and is overwritten each time you run the script.  
+File with the result - `out`.It is automatically generated and is overwritten each time you run the script.  
 Be careful with this.  
 
 ---------------
+Directory `from_ip_get_accounts_search_by_one_ip` contains 1 file.  
+`get_accs_one_ip.py` is a script that finds the corresponding accounts for certain `ip`  
+(this `ip` need to set in the head of the script in `search_ip = "ip_for_search"`) in your cPanel.  
+File with the result - `out`. It is automatically generated and is overwritten each time you run the script.  
+Be careful with this.  
+
+---------------
+
 `remove_all_acct.py` is a script that delete all accounts from your cPanel.
 
 --------------
