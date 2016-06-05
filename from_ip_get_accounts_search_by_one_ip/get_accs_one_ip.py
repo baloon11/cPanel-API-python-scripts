@@ -19,7 +19,7 @@ server = pycpanel.conn(hostname=server_name,
 
 acc_list=[]
 for acct in server.api('listaccts')['acct']:
-    if acct['ip']=='search_ip':
+    if acct['ip']==search_ip:
         out=open('out','a')
         out.write( '%s\t%s\n' % (acct['ip'],acct['user']) )
         out.close()
